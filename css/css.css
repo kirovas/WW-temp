@@ -20,7 +20,7 @@ body{background:#000;font-family:Hattori_Hanzo;margin:0px;padding:0px;}
 75%  {opacity:0.8;}
 100% {opacity:1;}
 }
-.page{background: url(../images/wp1.jpg) 50% 0 repeat ; max-width:1280px;margin:0px auto;padding-bottom:30px;}
+.page{background: url(../images/wp1.jpg) 50% 0 repeat ; width:1280px;margin:0px auto;padding-bottom:30px;}
 
 #main {
 /*background: url(images/wp1.jpg) 50% 0 repeat fixed;*/
