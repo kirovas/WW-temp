@@ -1,72 +1,4 @@
 
-
-/* JS for responsive slider */
-/*
-var api;
-	jQuery(document).ready(function() {
-		 api =  jQuery('.banner').revolution(
-						{
-							delay: 5000,
-
-							hideThumbs:300,
-
-							thumbWidth:100,							// Thumb With and Height and Amount (only if navigation Tyope set to thumb !)
-							thumbHeight:50,
-							thumbAmount:5,
-
-							navigationType:"both",					//bullet, thumb, none, both		(No Thumbs In FullWidth Version !)
-							navigationArrows:"verticalcentered",		//nexttobullets, verticalcentered, none
-							navigationStyle:"round",				//round,square,navbar
-
-							touchenabled:"on",						// Enable Swipe Function : on/off
-							onHoverStop:"on",						// Stop Banner Timet at Hover on Slide on/off
-
-							navOffsetHorizontal:0,
-							navOffsetVertical:20,
-
-							stopAtSlide:-1,
-							stopAfterLoops:-1,
-
-							shadow:0,								//0 = no Shadow, 1,2,3 = 3 Different Art of Shadows  (No Shadow in Fullwidth Version !)
-							fullWidth:"on"							// Turns On or Off the Fullwidth Image Centering in FullWidth Modus
-						});
-	});
-	
-	*/
-
-/* JS for gmaps */
-/*   
-   var map;
-    $(document).ready(function(){
-      map = new GMaps({
-        el: '#map',
-        lat: 46.482526,
-        lng: 30.723311,
-        zoomControl : true,
-        zoomControlOpt: {
-            style : 'SMALL',
-            position: 'TOP_LEFT'
-        },
-        panControl : false,
-        streetViewControl : false,
-        mapTypeControl: false,
-        overviewMapControl: false
-      });
-    });
-	
-
-
-
-/* JS for Experience */
-	/*	
-	$(".knob").knob({
-		'min':0,
-		'max':100,
-		'readOnly': true,
-		'dynamicDraw': true,
-		'thickness': 0.2,
-	});  
-*/
 	
 /* JavaScript for Animation */	
 
@@ -75,7 +7,7 @@ jQuery(document).ready(function() {
 /* prettyPhoto Gallery */
 
 jQuery(".prettyphoto").prettyPhoto({
-   overlay_gallery: false, social_tools: false
+   overlay_gallery: false, social_tools: false,"theme": 'dark_rounded'
 });
 $('.hero-h1').waypoint(function(down) {
 		$(this).addClass('animation');
