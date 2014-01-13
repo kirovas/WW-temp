@@ -220,9 +220,21 @@ opacity:1;
 .totop{
 position:fixed;
 color:#fff;
-bottom: 50px;
+bottom: 10px;
 left: 30px;
 display:none;
+width: 100%;
+text-align: center;
+background: rgba(0,0,0,0.6);
+padding: 5px 0px;
+
+}
+.totop:hover{
+	text-shadow: 0 0 6px #ffc,0 0 6px #fff;
+	-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
 }
 div.ppt{
 display:none!important;
